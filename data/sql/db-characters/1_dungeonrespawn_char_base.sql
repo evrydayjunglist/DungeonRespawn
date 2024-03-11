@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS `dungeonrespawn_playerinfo` (
-  `guid` bigint(20) unsigned DEFAULT NULL,
+  `guid` bigint(20) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `map` int(11) DEFAULT NULL,
   `x` float DEFAULT NULL,
   `y` float DEFAULT NULL,
